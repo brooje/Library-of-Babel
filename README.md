@@ -1,2 +1,1 @@
-# LectioInfinitum
- 
+# Library of Babel
