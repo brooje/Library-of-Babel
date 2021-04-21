@@ -1,0 +1,37 @@
+{
+  "type": "libraryofbabel:babel",
+  "generator": {
+    "type": "libraryofbabel:terrain",
+    "settings": {
+      "disable_mob_generation": true,
+      "structures": {
+      }
+    },
+    "biome_source": {
+      "type": "libraryofbabel:biome_source",
+      "seed": 42069,
+      "biomes": [{"spawn_costs": {}, "spawners":  {}, "forge:registry_name": "libraryofbabel:library",
+        "starts": [], "features": [],
+        "carvers": {}, "surface_builder": {"type":"libraryofbabel:librarybuilder",
+          "config": {
+            "top_material": {
+              "Name": "minecraft:planks"
+            },
+            "under_material": {
+              "Name": "minecraft:planks"
+            },
+            "underwater_material": {
+              "Name": "minecraft:planks"
+            }
+          }
+        }, "effects": {"sky_color": 0, "water_fog_color":  255, "water_color":  255,
+          "fog_color": 0
+        }, "scale": 0.5,
+        "depth": 0.125,
+        "category": "forest",
+        "downfall": 0, "temperature": 0,
+        "precipitation": "none"
+      }]
+    }
+  }
+}

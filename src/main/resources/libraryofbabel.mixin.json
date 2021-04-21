@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "us.brog.libraryofbabel.mixin",
+  "refmap": "libraryofbabel.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "dimension.ChunkGeneratorMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
